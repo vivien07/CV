@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Vivien Ruas</title>
+	<!--Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="CSS/style.css">
+	<!--police -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Oxygen+Mono" rel="stylesheet">
+
+</head>
+
+<body>
+	<div id="container">
+
+		<div id="title">
+			<header>
+				<span>INTERACTIVE RESUME</span>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="#profile">Profile</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="container-fluid" id="profile">
+
+			<header>
+				<h1>Profile</h1>
+			</header>
+			<section class="row">
+				<article class="col">
+					<h4>Details</h4>
+					<p><span>Name : </span>Vivien Ruas</p>
+					<p><span>Age : </span>27</p>
+					<p><span>Location : </span>Valence, Rhône-Alpes, FRANCE</p>
+				</article>
+				<article class="col">
+					<h4>About me</h4>
+					<p>Hi I'm a young iOS and web developer.<br />Above all, I enjoy coding video games and testing new ideas.<br />Besides, I'm currently learning new frameworks like React or React Native in order to master cross-platform development.</p>
+				</article>
+				<aside class="col">
+					<img src="images/photo.jpg" alt="photo">
+				</aside>
+			</section>
+
+		</div>
+
+		<div id="skills">
+			<header>
+				<h1>Skills</h1>
+			</header>
+			<section>
+				<ul>
+					<h4 id="title1" class="title">Front-End Web Development</h4>
+					<ul id="list1" class="list">
+						<li>HTML</li>
+						<li>CSS & Bootstrap</li>
+						<li>JavaScript & jQuery</li>
+					</ul>
+
+					<h4 id="title2" class="title">Back-End Web Development</h4>
+					<ul id="list2" class="list">
+						<li>Node.js & Express</li>
+						<li>Python & Django</li>
+						<li>SQL databases, MongoDB & Mongoose</li>
+					</ul>
+
+					<h4 id="title3" class="title">Mobile Development</h4>
+					<ul id="list3" class="list">
+						<li>Swift & Xcode </li>
+						<li>C# & Unity </li>
+						<li>REST APIs & JSON data </li>
+					</ul>
+
+					<h4 id="title4" class="title">Other</h4>
+					<ul id="list4" class="list">
+						<li>WordPress</li>
+						<li>UNIX Command Line</li>
+						<li>Git & GitHub</li>
+					</ul>
+
+				</ul>
+			</section>
+
+		</div>
+
+		<div id="projects">
+			<header>
+				<h1>Projects</h1>
+			</header>
+			<section id="carousel" class="carousel slide" data-ride="false">
+				<div class="carousel-inner">
+
+					<div class="carousel-item active">
+						<a href="https://mighty-oasis-27342.herokuapp.com/" target="_blank"><img src="images/portfolio/newsletter.png" alt="newsletter"></a>
+					</div>
+					<div class="carousel-item">
+						<a href="http://theiphonedeveloper.fr/Simon%20Game/" target="_blank"><img src="images/portfolio/SimonGame.png" alt="simonGame"></a>
+					</div>
+					<div class="carousel-item">
+						<a href="https://vivien07.github.io/DropCharge/" target="_blank"><img src="images/portfolio/DropCharge.png" alt="dropCharge"></a>
+					</div>
+					<div class="carousel-item">
+							<a href="https://vast-forest-77481.herokuapp.com/" target="_blank"><img src="images/portfolio/blog.png" alt="blog"></a>
+					</div>
+					<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+
+				</div>
+			</section>
+		</div>
+
+
+		<div id="contact">
+			<header>
+				<h1>Contact</h1>
+			</header>
+			<section>
+
+				<a class="link" href="https://www.linkedin.com/in/vivien-ruas/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+				<a class="link" href="https://www.facebook.com/IPhone-developer-358111271684078/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+				<a class="link" href="https://twitter.com/ruas_vivien" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+				<a class="link" href="http://theiphonedeveloper.fr/" target="_blank"><i class="fas fa-home"></i> Website</a>
+				<a class="link" href="mailto:vivienruas07@gmail.com"><i class="fas fa-at"></i> Mail : vivienruas07@gmail.com</a>
+				<a> <i class="fas fa-mobile-alt"></i> Phone : 07 67 19 97 28</a>
+
+			</section>
+			<footer>© 2019 Vivien Ruas @ The Iphone Developer</footer>
+		</div>
+
+	</div>
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- JavaScript -->
+	<script src="JS/script.js"></script>
+	<!-- FontAwesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+#container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Merriweather', sans-serif, serif;
+	margin: auto;
+}
+
+nav {
+	position: fixed;
+	top: 50%;
+	left: 0;
+	z-index: 1;
+}
+
+nav a {
+	color: red;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#title span {
+	font-family: 'Oxygen Mono', monospace;
+	font-size: 50px;
+	color: black;
+	text-transform: uppercase;
+	margin: 20px;
+}
+
+h1 {
+	font-family: 'Oxygen Mono', monospace;
+	color: white;
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 10px;
+}
+
+h4 {
+	font-family: 'Oxygen Mono', monospace;
+	color: white;
+	text-transform: uppercase;
+	margin: 20px;
+}
+
+h4:hover {
+	color: red;
+}
+
+header {
+	padding: 50px;
+}
+
+article {
+	text-align: center;
+}
+
+p {
+	color: white;
+}
+
+#title header {
+	background-color: white;
+}
+
+/* profile */
+
+#profile {
+	background-color: blue;
+}
+
+#profile section {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#profile span {
+	font-weight: bold;
+}
+
+#profile img {
+	height: 200px;
+	width: 200px;
+	border: 1px solid white;
+	border-radius: 100px;
+	margin: 20px;
+}
+
+/* skills */
+
+#skills {
+	background-color: cyan;
+}
+
+.list {
+	visibility: hidden;
+	position: relative;
+	left: -20px;
+}
+
+/* projects */
+
+#projects {
+	background-color: blue;
+}
+
+#projects img {
+	border: solid;
+	border-radius: 50%;
+	border-width: thick;
+	border-color: white;
+	width: 50%;
+	height: 50%;
+}
+
+/* contact */
+
+#contact {
+	background-color: cyan;
+}
+
+#contact section {
+	display: flex;
+	justify-content: space-around;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+}
+
+.link:hover {
+	color: red;
+}
+
+footer {
+	padding: 50px;
+}
+
+
+/* .link:focus{
+	color: red;
+}
+
+.link:active{
+	color: red;
+}
+
+ .link:visited{
+	color: black;
+} */
